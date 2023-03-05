@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/01/04 08:37:40.000.543,=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/04 08:38:44.000.319,D:\ProDelphiCE\TSC-PedidoMobile\src\views\uLogin.fmx=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2022/01/04 08:38:44.000.319,D:\ProDelphiCE\TSC-PedidoMobile\src\views\uLogin.pas=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/04 08:39:01.000.537,D:\ProDelphiCE\TSC-PedidoMobile\PedidoMobile.dproj=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/01/04 10:39:27.000.019,=D:\ProDelphiCE\TSC-PedidoMobile\Unit1.pas</Transaction>
+    <Transaction>2022/01/04 10:40:49.000.733,=D:\ProDelphiCE\TSC-PedidoMobile\Unit1.pas</Transaction>
+    <Transaction>2022/01/04 10:41:32.000.863,D:\ProDelphiCE\TSC-PedidoMobile\src\providers\pComuns.dfm=D:\ProDelphiCE\TSC-PedidoMobile\Unit1.dfm</Transaction>
+    <Transaction>2022/01/04 10:41:32.000.863,D:\ProDelphiCE\TSC-PedidoMobile\src\providers\pComuns.pas=D:\ProDelphiCE\TSC-PedidoMobile\Unit1.pas</Transaction>
+    <Transaction>2022/01/04 10:58:16.000.196,=D:\ProDelphiCE\TSC-PedidoMobile\Unit1.pas</Transaction>
+    <Transaction>2022/01/04 10:58:53.000.217,D:\ProDelphiCE\TSC-PedidoMobile\src\views\uMeusPedidos.fmx=D:\ProDelphiCE\TSC-PedidoMobile\Unit1.fmx</Transaction>
+    <Transaction>2022/01/04 10:58:53.000.217,D:\ProDelphiCE\TSC-PedidoMobile\src\views\uMeusPedidos.pas=D:\ProDelphiCE\TSC-PedidoMobile\Unit1.pas</Transaction>
+    <Transaction>2022/01/05 14:44:03.000.760,=D:\ProDelphiCE\TSC-PedidoMobile\Unit1.pas</Transaction>
+    <Transaction>2022/01/05 14:45:16.000.917,D:\ProDelphiCE\TSC-PedidoMobile\src\views\uPedido.fmx=D:\ProDelphiCE\TSC-PedidoMobile\Unit1.fmx</Transaction>
+    <Transaction>2022/01/05 14:45:16.000.917,D:\ProDelphiCE\TSC-PedidoMobile\src\views\uPedido.pas=D:\ProDelphiCE\TSC-PedidoMobile\Unit1.pas</Transaction>
+    <Transaction>2022/01/06 15:31:18.000.265,=D:\ProDelphiCE\TSC-PedidoMobile\Unit1.pas</Transaction>
+    <Transaction>2022/01/06 15:32:27.000.368,D:\ProDelphiCE\TSC-PedidoMobile\src\views\uNovoPedido.fmx=D:\ProDelphiCE\TSC-PedidoMobile\Unit1.fmx</Transaction>
+    <Transaction>2022/01/06 15:32:27.000.368,D:\ProDelphiCE\TSC-PedidoMobile\src\views\uNovoPedido.pas=D:\ProDelphiCE\TSC-PedidoMobile\Unit1.pas</Transaction>
+    <Transaction>2022/01/18 10:02:35.000.247,=D:\ProDelphiCE\TSC-PedidoMobile\Unit1.pas</Transaction>
+    <Transaction>2022/01/18 10:04:02.000.272,D:\ProDelphiCE\TSC-PedidoMobile\src\views\uConfiguracao.fmx=D:\ProDelphiCE\TSC-PedidoMobile\Unit1.fmx</Transaction>
+    <Transaction>2022/01/18 10:04:02.000.272,D:\ProDelphiCE\TSC-PedidoMobile\src\views\uConfiguracao.pas=D:\ProDelphiCE\TSC-PedidoMobile\Unit1.pas</Transaction>
+    <Transaction>2022/02/10 15:15:08.000.704,=D:\ProDelphiCE\TSC-PedidoMobile\src\comuns\Loading.pas</Transaction>
+    <Transaction>2022/02/15 11:17:25.000.238,=D:\ProDelphiCE\TSC-PedidoMobile\src\views\uCamera.pas</Transaction>
+    <Transaction>2022/10/11 14:40:03.000.420,=D:\ProDelphiCE\TSC-PedidoMobile\PedidoMobile3.db3</Transaction>
+    <Transaction>2022/10/11 14:41:14.000.801,D:\ProDelphiCE\TSC-PedidoMobile\PedidoMobile3.db3=</Transaction>
+    <Transaction>2022/10/13 18:03:32.000.135,=D:\ProDelphiCE\TSC-PedidoMobile\src\views\uDemoCodeReader.pas</Transaction>
+    <Transaction>2022/10/13 18:08:29.000.055,D:\ProDelphiCE\TSC-PedidoMobile\src\views\uDemoCodeReader.pas=</Transaction>
+    <Transaction>2022/10/13 18:09:44.000.762,=D:\ProDelphiCE\TSC-PedidoMobile\src\views\uDemoCodeReader.pas</Transaction>
+    <Transaction>2022/10/14 10:35:34.000.929,=D:\CodeReader\TCodeReader-main\lib\dw-camera.jar</Transaction>
+    <Transaction>2022/12/12 15:05:36.000.850,D:\ProDelphiCE\TSC-TrabinDFe\TrabinDFe.dproj=D:\ProDelphiCE\TSC-TrabinDFe\PedidoMobile.dproj</Transaction>
+    <Transaction>2022/12/12 15:32:43.000.327,D:\ProDelphiCE\TSC-TrabinDFe\src\views\uMeusPedidos.pas=</Transaction>
+    <Transaction>2022/12/12 15:36:33.000.371,D:\ProDelphiCE\TSC-TrabinDFe\src\views\uPedido.pas=</Transaction>
+    <Transaction>2022/12/12 15:58:15.000.958,=D:\ProDelphiCE\TSC-TrabinDFe\Unit1.pas</Transaction>
+    <Transaction>2022/12/12 15:59:04.000.154,D:\ProDelphiCE\TSC-TrabinDFe\src\views\uPrincipal.pas=D:\ProDelphiCE\TSC-TrabinDFe\Unit1.pas</Transaction>
+    <Transaction>2022/12/12 15:59:04.000.154,D:\ProDelphiCE\TSC-TrabinDFe\src\views\uPrincipal.fmx=D:\ProDelphiCE\TSC-TrabinDFe\Unit1.fmx</Transaction>
+    <Transaction>2022/12/14 08:45:04.000.918,=D:\ProDelphiCE\TSC-TrabinDFe\src\views\uPrincipal2.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="" Android64=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

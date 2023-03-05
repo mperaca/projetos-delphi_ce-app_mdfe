@@ -1,0 +1,12 @@
+{
+	"name": "TSC-PedidoMobile",
+	"description": "",
+	"version": "1.0.0",
+	"homepage": "",
+	"mainsrc": "./src",
+	"projects": [],
+	"dependencies": {
+		"github.com/hashload/horse": "^v2.0.14",
+		"github.com/viniciussanchez/restrequest4delphi": "^v3.0.15"
+	}
+}
