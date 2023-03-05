@@ -1,0 +1,40 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited LayoutBottom: TLayout
+    Margins.Top = 10.000000000000000000
+    Position.Y = 631.000000000000000000
+    Size.Width = 430.000000000000000000
+    inherited RoundRectSair: TRoundRect
+      Size.Width = 430.000000000000000000
+      inherited LabelSair: TLabel
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+      end
+    end
+  end
+  inherited LayoutTopo: TLayout
+    Size.Width = 450.000000000000000000
+    inherited RectangleTopo: TRectangle
+      Size.Width = 450.000000000000000000
+      inherited LabelTitulo: TLabel
+        Size.Width = 450.000000000000000000
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+      end
+    end
+  end
+  inherited Layout1: TLayout
+    Size.Width = 450.000000000000000000
+    Size.Height = 561.000000000000000000
+    inherited CodeReader1: TCodeReader
+      Size.Width = 450.000000000000000000
+      Size.Height = 511.000000000000000000
+    end
+    inherited Rectangle1: TRectangle
+      Size.Width = 434.000000000000000000
+      inherited Text1: TText
+        Size.Width = 402.000000000000000000
+      end
+    end
+  end
+end

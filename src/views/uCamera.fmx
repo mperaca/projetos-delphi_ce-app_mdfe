@@ -1,0 +1,126 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 344
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnClose = FormClose
+  OnCloseQuery = FormCloseQuery
+  OnShow = FormShow
+  DesignerMasterStyle = 3
+  object LayoutBottom: TLayout
+    Align = Bottom
+    Margins.Left = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 416.000000000000000000
+    Size.Width = 324.000000000000000000
+    Size.Height = 54.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object RoundRectSair: TRoundRect
+      Align = Top
+      Fill.Color = xFF94011B
+      Margins.Top = 10.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 324.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      OnClick = RoundRectSairClick
+      object LabelSair: TLabel
+        Align = Center
+        StyledSettings = [Family, Size]
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'Fechar'
+        TabOrder = 0
+      end
+    end
+  end
+  object LayoutTopo: TLayout
+    Align = Top
+    Size.Width = 344.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object RectangleTopo: TRectangle
+      Align = Client
+      Corners = [BottomLeft, BottomRight]
+      Fill.Color = xFF94011B
+      Size.Width = 344.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 30.000000000000000000
+      YRadius = 30.000000000000000000
+      object LabelTitulo: TLabel
+        Align = Contents
+        StyledSettings = [Family]
+        Size.Width = 344.000000000000000000
+        Size.Height = 60.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'Leitor de C'#243'digo de Barras'
+        TabOrder = 1
+      end
+    end
+  end
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 344.000000000000000000
+    Size.Height = 356.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object CodeReader1: TCodeReader
+      CodeType = Code1DHorizontal
+      ShowMask = True
+      ShowIconTypes = True
+      PlaySound = True
+      BeepVolume = 1.000000000000000000
+      IConColor = claWhite
+      MaxImageWidth = 1000
+      ValidSamples = 1
+      OnCodeReady = CodeReader1CodeReady
+      Size.Width = 344.000000000000000000
+      Size.Height = 306.000000000000000000
+      Size.PlatformDefault = False
+      Align = Contents
+      Margins.Top = 50.000000000000000000
+    end
+    object Rectangle1: TRectangle
+      Align = Top
+      Fill.Color = x7FFFFFFF
+      HitTest = False
+      Margins.Left = 8.000000000000000000
+      Margins.Top = 8.000000000000000000
+      Margins.Right = 8.000000000000000000
+      Margins.Bottom = 8.000000000000000000
+      Position.X = 8.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 328.000000000000000000
+      Size.Height = 36.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 18.000000000000000000
+      YRadius = 18.000000000000000000
+      object Text1: TText
+        Align = Client
+        HitTest = False
+        Margins.Left = 16.000000000000000000
+        Margins.Right = 16.000000000000000000
+        Size.Width = 296.000000000000000000
+        Size.Height = 36.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+end

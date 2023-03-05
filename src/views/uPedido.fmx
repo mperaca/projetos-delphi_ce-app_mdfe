@@ -1,0 +1,1149 @@
+object F_Pedido: TF_Pedido
+  Left = 0
+  Top = 0
+  Caption = 'Pedido'
+  ClientHeight = 697
+  ClientWidth = 436
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnClose = FormClose
+  OnShow = FormShow
+  DesignerMasterStyle = 3
+  object LayoutTopo: TLayout
+    Align = Top
+    Size.Width = 436.000000000000000000
+    Size.Height = 200.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object RectangleTopo: TRectangle
+      Align = Client
+      Corners = [BottomLeft, BottomRight]
+      Fill.Color = xFF94011B
+      Size.Width = 436.000000000000000000
+      Size.Height = 200.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 40.000000000000000000
+      YRadius = 40.000000000000000000
+      object ImageVoltar: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              013A494441546843ED98CD4E83501085B128AE5DFBB8AD4D9FA14B37AE74E51B
+              59AB2BF74000CFA1A7494981B051A67ABEA4B93F3324DF2D73E92D8931C618F3
+              6F699AE6A6AAAA873CCF3F8AA2D8A1BFE69CC2B191FC33DA0E985B29252EF0A4
+              FCCB41B90BEF86D26202C7417982527A576A3CE0D75B36A720BE547A2CE03645
+              9EF1789B98526365432CFF1350CAF2734029CBCF01A4AE25170EFE40A2D9E093
+              49F71C25446723DD962BB52D38C77C655976A76148CAB2DCC3F15EC364A1B605
+              81CEF812E808D775BD55372C699A3EAA7B0EEA8B9B78F409341793363141C294
+              C7E82BEED6AD2E89071CBD8810C03185E4D341B71F2FE23780E39F58C4E51EF2
+              8E504E9283201EF34FFD11388E9613CE539F4A8D0B3C0717C1578C4A8B0D5C7B
+              CB297C099D025F2E6285B2D9E39B7F639F730A1B638C31669C24F9066A41677F
+              E68BBEB40000000049454E44AE426082}
+            FileName = 'D:\ProDelphiCE\TSC-PedidoMobile\Imagens\voltar.png'
+          end>
+        Align = Left
+        Margins.Left = 5.000000000000000000
+        Margins.Top = -120.000000000000000000
+        Margins.Bottom = 160.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 30.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        WrapMode = Stretch
+        OnClick = ImageVoltarClick
+      end
+      object LabelTitulo: TLabel
+        Align = Contents
+        StyledSettings = [Family]
+        Margins.Bottom = 150.000000000000000000
+        Size.Width = 436.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'Pedido 9999'
+        TabOrder = 2
+      end
+      object LabelStatus: TLabel
+        Align = Contents
+        StyledSettings = [Family]
+        Margins.Top = -90.000000000000000000
+        Size.Width = 436.000000000000000000
+        Size.Height = 290.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = '(Liberado)'
+        TabOrder = 1
+      end
+      object ImageDown: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              01CB494441546843ED984B4EC3400C868BC402710224B804485C04167018BA03
+              51EEC1438283B0814B8078ED8145D5247C6E8C50346DE24C26290B7FD228E9CC
+              EFDF4E3275A38E1CC7711CC7719C90A228D61993E974FAC6F8C8B2EC5CE674B9
+              372487E4D2BCAFD17909BC20B00273571CD654921CF1D61C15E422546287AB7F
+              D7F80A799E9FA82439E2AD692AC89350899D6517C03C79F2439525433CC55BD3
+              5488BA00E226657808869F24DC536967C44B3CD53E206A0B11B7319BCDEE4B8B
+              1012BE90785BE5D160B585D753E91A420D8F1C3655DE0E026BCDE18111670EC4
+              5A6ED28ECAE3C060B7EEF1C22DA375679218B6C6E5DC6101E4FC26F7BECABB81
+              D10186997A07B0DEBA331133D6F00072B19C1FAB340D8684472A6D046DD30D19
+              AB341DF82EFC91F9C5FAC8D1D46E4972DC71E8E7C712E34E9D09497F1DC70A09
+              A23A1373FD771C2B6DB7819CA7D87E4921A1B933713E6CC7B162298C317CC7B1
+              427ED91A3765292114FE25433F06686C6FAFE72628A0F6CBB98C413A8E150A69
+              EA4C15D00ED771AC5050D33BD31C34C3771C2B4D5F58D690ACA8E358A1C0A59D
+              49D654F67FA14EE94CD765C97FE8DC6A3B8E150A95BF46CED832CF32383F9539
+              5D761CC7711CC77192301AFD00C8FF96B807949EC40000000049454E44AE4260
+              82}
+            FileName = 'D:\ProDelphiCE\TSC-PedidoMobile\Imagens\down.png'
+          end>
+        Align = Right
+        Margins.Top = -120.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 160.000000000000000000
+        Position.X = 366.000000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 30.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        WrapMode = Stretch
+        OnClick = ImageDownClick
+      end
+      object ImageUP: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              0219494441546843ED96CF4E135114C65B0C10E3D684C484176081892EF41574
+              C30636F020B253B03B7C035C801B37FA0E6ED8B8F00D0812350D4BD21893FEA1
+              FC4EE76BE3E476A67768A71D92F34B6E3ABDF73BE77C9DC97C69CD711CC7711C
+              C7992DFD7E7FB9D7EB353A9DCEB92DAEDFDB9E8EAB0D46EB18FEC2670AEDD525
+              AB2EBADB63E1EC50B26A82C79D76BB7D93D80DB133D893BC5AE0EF3906FF2656
+              B341F38F1FF15265D500434F30F65B1E2782B649CDBACA170B461E76BBDDEFF2
+              160D353FA87DA4368B011F6313670877BA654B5F03169E4C798983F11E77788B
+              F59AEBAEB60316964C18DBC65866E270FE46527B52FBC96E88F5805D49E70373
+              731387BBFA49D211EC7DD47100BDE6974C0CCA4D1C5ECE3334AB928FE06885F5
+              6D201A033DCB4F2606E4260E267EA259933C00C963FB6F94A8434A4D26FA5BE2
+              7C4E468560BEC5F0A79267826603EDB5CA0298F1958F25C96787A54532220443
+              83C4917422685F5193974C0792CE060646274E2C94CD279968F48C8685122716
+              6A8FD5268099964C2F24BD1B34B0C4F9A59E015989130B2DCA4B260AA74A9C58
+              68554E32F1783FA84700E62D7136259D1AEB653DD53E002F4792C643C32BD5A7
+              60BF50E2C4623DADB7C6A460BF29593C56A4FA140C2A9C38B1586F8D4981973F
+              92C4C3636BA8FE7F4E745C1ACC3DD5AC11EC15FFC74ADD03D63B7EFD252FD905
+              77E7ADEDE9B83486736DA6CDB6EB79CC751CC7711CC7B97FD46AB7DEFC840D93
+              D839E10000000049454E44AE426082}
+            FileName = 'D:\ProDelphiCE\TSC-PedidoMobile\Imagens\up.png'
+          end>
+        Align = Right
+        Margins.Top = -120.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 160.000000000000000000
+        Position.X = 401.000000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 30.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        WrapMode = Stretch
+        OnClick = ImageDownClick
+      end
+      object Line1: TLine
+        Align = Top
+        LineType = Top
+        Margins.Top = 80.000000000000000000
+        Position.Y = 80.000000000000000000
+        Size.Width = 436.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claWhite
+      end
+    end
+    object LabelCliente: TLabel
+      Align = Contents
+      StyledSettings = [Family, Style]
+      Margins.Left = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Size.Width = 416.000000000000000000
+      Size.Height = 200.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 13.000000000000000000
+      TextSettings.FontColor = claWhite
+      Text = 'Cliente:'
+      TabOrder = 3
+    end
+    object LabelCondicao: TLabel
+      Align = Contents
+      StyledSettings = [Family, Style]
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 65.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Size.Width = 416.000000000000000000
+      Size.Height = 135.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 13.000000000000000000
+      TextSettings.FontColor = claWhite
+      Text = 'Condi'#231#227'o: '
+      TabOrder = 5
+    end
+    object LabelCobranca: TLabel
+      Align = Contents
+      StyledSettings = [Family, Style]
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 130.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Size.Width = 416.000000000000000000
+      Size.Height = 70.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 13.000000000000000000
+      TextSettings.FontColor = claWhite
+      Text = 'Cobran'#231'a: '
+      TabOrder = 1
+    end
+    object LabelNomeCliente: TLabel
+      Align = Contents
+      StyledSettings = [Family]
+      Margins.Left = 80.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Size.Width = 346.000000000000000000
+      Size.Height = 200.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 13.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      TextSettings.FontColor = claWhite
+      Text = 'Nome cliente....'
+      TabOrder = 2
+    end
+    object LabelNomeCondicao: TLabel
+      Align = Contents
+      StyledSettings = [Family]
+      Margins.Left = 80.000000000000000000
+      Margins.Top = 65.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Size.Width = 346.000000000000000000
+      Size.Height = 135.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 13.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      TextSettings.FontColor = claWhite
+      Text = 'Nome condi'#231#227'o...'
+      TabOrder = 4
+    end
+    object LabelNomeCobranca: TLabel
+      Align = Contents
+      StyledSettings = [Family]
+      Margins.Left = 80.000000000000000000
+      Margins.Top = 130.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Size.Width = 346.000000000000000000
+      Size.Height = 70.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 13.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      TextSettings.FontColor = claWhite
+      Text = 'Nome cobran'#231'a...'
+      TabOrder = 0
+    end
+  end
+  object LayoutBottom: TLayout
+    Align = Bottom
+    Position.Y = 637.000000000000000000
+    Size.Width = 436.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object RectangleBottom: TRectangle
+      Align = Client
+      Corners = [TopLeft, TopRight]
+      Fill.Color = xFF94011B
+      Size.Width = 436.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 30.000000000000000000
+      YRadius = 30.000000000000000000
+      object ImageNovo: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              0298494441546843ED98CF6B134114C7DF9B0DE98A08493D8424079BA4F120E8
+              51857AEC41048F1E0CF92F3C2AA8073DF5BF902AE8D582871E2D05BD2978697E
+              E0A14984622AF69084649E33C9ABAE34BF3693D9D5900F4CDE8FD9C7CE37FB66
+              1616FE7790EDCC109168D62B05444C736A2A54DD613C99DD5675C4A9993016F0
+              BD562E228A171CFA82241657D36BDB1CCE84603B336AF1EBECFA0605E5D99D19
+              E327D0AC579F28F37810D11E11BE1FF8C3511D734BFD6E70F8349ECCE8FAF0D0
+              02D4201E1317E3F7FA4918B750D89C6921BFA78A6A994D44D81CF8B0AB5A64B7
+              3F3102BFD79F32EAD43A23C0E454B1CDB0536B215B089BB5AF0540BACAA98948
+              802BE0A87FA3075F383516BFD76B48C0A7D5C4DA2BD317DF3FC7D8F7C0F1B783
+              F56ED779A7FD48A4773B96C897FA1396F173DFB17B40CAC83D47604E0FED73DA
+              3A7EEE3B56807A3C2BECFEE5DBC6CF7DAD9D42BA0D8E0E2B253DB4CFE9B9634D
+              4050ED674D4050ED6724A059AB3C3FAE964E947DC6A9A931A9F56224A023C403
+              729DF33D6539353526B55E8C044489A2DA3A44BE5BC4A4D68BB53D10144B0161
+              B31410364B0161B31410364B0161B314103646023A881D6D7B88ED7EC20726B5
+              5E8C0444A5DCC2169C3824B738353526B55E8C04C453D987B14CE6423C997DC4
+              A9A931A9F5626D0F10C0EFD6F0FAF3C69A0021BA6F2441498D0321C46B4ECF1D
+              6B02F4E7C08BA94C5E8DCBB1C4A532A7E78E350141B1E002087EB2A7C9B10D00
+              FAF32992E0077B4341B643396A546F3A04FBDA6FB55AE4BA2B2F95FB59C7D620
+              B8D66AB7EFBBAEDB5F1B82BC114BE63EF4E786305680A6D9A8EC00E11D0E8345
+              C2DB783A7397A3A14CDC0314A50248DAE13038D4E2E99C2C723492894FE094E3
+              7AF93A91D8502FA504A7AC80040D44B9174BE53E726A9101F805D62017B5ADEA
+              C6120000000049454E44AE426082}
+            FileName = 'D:\ProDelphiCE\TSC-PedidoMobile\Imagens\delete2.png'
+          end>
+        Align = Left
+        Margins.Left = 30.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Position.X = 30.000000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 40.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        WrapMode = Stretch
+      end
+      object LayoutTotais: TLayout
+        Align = Right
+        Position.X = 303.000000000000000000
+        Size.Width = 133.000000000000000000
+        Size.Height = 60.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object LabelQtde: TLabel
+          Align = Contents
+          StyledSettings = [Family, Style]
+          Margins.Bottom = 20.000000000000000000
+          Size.Width = 133.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 11.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '999 '#205'tens'
+          TabOrder = 0
+        end
+        object LabelValor: TLabel
+          Align = Contents
+          StyledSettings = [Family, Size, Style]
+          Margins.Top = 20.000000000000000000
+          Size.Width = 133.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 'R$ 999,99'
+          TabOrder = 1
+        end
+      end
+    end
+  end
+  object LayoutCliente: TLayout
+    Align = Client
+    Size.Width = 436.000000000000000000
+    Size.Height = 437.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object TabControlPedido: TTabControl
+      Align = Client
+      Size.Width = 436.000000000000000000
+      Size.Height = 437.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'TabControlPedidoStyle1'
+      TabHeight = 49.000000000000000000
+      TabIndex = 0
+      TabOrder = 0
+      TabPosition = Top
+      Sizes = (
+        436s
+        388s
+        436s
+        388s
+        436s
+        388s)
+      object TabItemItens: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = True
+        Size.Width = 145.000000000000000000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'TabItemItensStyle1'
+        TabOrder = 0
+        Text = #205'tens'
+        ExplicitSize.cx = 145.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+        object ListViewItens: TListView
+          ItemAppearanceClassName = 'TDynamicAppearance'
+          ItemEditAppearanceClassName = 'TDynamicAppearance'
+          HeaderAppearanceClassName = 'TListHeaderObjects'
+          FooterAppearanceClassName = 'TListHeaderObjects'
+          Align = Client
+          Padding.Top = 10.000000000000000000
+          Size.Width = 436.000000000000000000
+          Size.Height = 388.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          ItemAppearance.ItemHeight = 80
+          ItemAppearance.ItemEditHeight = 60
+          ItemAppearance.HeaderHeight = 1
+          ItemAppearance.FooterHeight = 1
+          ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+            item
+              AppearanceObjectName = 'ImageFundo'
+              AppearanceClassName = 'TImageObjectAppearance'
+              Appearance.Width = 60.000000000000000000
+              Appearance.Height = 60.000000000000000000
+              Appearance.PlaceOffset.Y = 10.000000000000000000
+            end
+            item
+              AppearanceObjectName = 'TextDescricao'
+              AppearanceClassName = 'TTextObjectAppearance'
+              Appearance.Font.Size = 13.000000000000000000
+              Appearance.Font.StyleExt = {00060000000000000004000000}
+              Appearance.TextAlign = Leading
+              Appearance.TextVertAlign = Leading
+              Appearance.TextColor = claGray
+              Appearance.Width = 332.000000000000000000
+              Appearance.Height = 20.000000000000000000
+              Appearance.PlaceOffset.X = 67.000000000000000000
+              Appearance.PlaceOffset.Y = 6.000000000000000000
+            end
+            item
+              AppearanceObjectName = 'TextCodigo'
+              AppearanceClassName = 'TTextObjectAppearance'
+              Appearance.Font.Size = 11.000000000000000000
+              Appearance.TextAlign = Leading
+              Appearance.TextColor = claGray
+              Appearance.Width = 332.000000000000000000
+              Appearance.Height = 17.000000000000000000
+              Appearance.PlaceOffset.X = 67.000000000000000000
+              Appearance.PlaceOffset.Y = 26.000000000000000000
+            end
+            item
+              AppearanceObjectName = 'TextValor'
+              AppearanceClassName = 'TTextObjectAppearance'
+              Appearance.Font.Size = 16.000000000000000000
+              Appearance.Font.StyleExt = {00060000000000000004000000}
+              Appearance.TextAlign = Leading
+              Appearance.TextColor = claDarkslategray
+              Appearance.Width = 204.000000000000000000
+              Appearance.Height = 30.000000000000000000
+              Appearance.PlaceOffset.X = 67.000000000000000000
+              Appearance.PlaceOffset.Y = 44.000000000000000000
+            end
+            item
+              AppearanceObjectName = 'ImageDetalhe'
+              AppearanceClassName = 'TImageObjectAppearance'
+              Appearance.Width = 30.000000000000000000
+              Appearance.Height = 80.000000000000000000
+              Appearance.Align = Trailing
+              Appearance.Opacity = 0.600000023841857900
+            end>
+          ItemAppearanceObjects.ItemEditObjects.ObjectsCollection = <
+            item
+              AppearanceObjectName = 'Text1'
+              AppearanceClassName = 'TTextObjectAppearance'
+            end>
+          ItemAppearanceObjects.HeaderObjects.Text.Width = 316.000000000000000000
+          ItemAppearanceObjects.HeaderObjects.Text.Visible = False
+          ItemAppearanceObjects.FooterObjects.Text.Visible = False
+          object ImageDetalhe: TImage
+            MultiResBitmap.Height = 48
+            MultiResBitmap.Width = 48
+            MultiResBitmap = <
+              item
+                Width = 48
+                Height = 48
+                PNG = {
+                  89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+                  87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                  00F6494441546843EDD8C14AC3401485E1D8D6BA75D55D7D4B95562DB4CBAE2B
+                  E213B9F319F429A4D5B6FE07263064E142722117CE073F433621C3241392C6CC
+                  CCCCCC428CE999CEF44A134AE59E74F16D7794CA37D5133850EF46658C702A63
+                  AB7B3C780F54AFC0927AA7072DCA1BE9B6B9A617DA52BA55907919CDFE41BBDC
+                  8C229FB530535AD1276DE89252D1B6596FA30B4AE548F5047EA877916FE28B32
+                  868A9CC0BA8C2D3D07A95CD1137D9026A3E374526FA3361437654C47F7FF23BD
+                  93DEC8913B5E087D03D72FB25B4A654FF504BEA87791CBDA3D77BAAD54F77FBD
+                  02FA464E453FB276A48BD73771BA1F5B666666F6B7A6F905FAE133F9C8F313BC
+                  0000000049454E44AE426082}
+                FileName = 'D:\ProDelphiCE\TSC-PedidoMobile\Imagens\more2.png'
+              end>
+            Position.X = 160.000000000000000000
+            Position.Y = 176.000000000000000000
+            Visible = False
+          end
+          object ImageFoto: TImage
+            MultiResBitmap.Height = 48
+            MultiResBitmap.Width = 48
+            MultiResBitmap = <
+              item
+                Width = 48
+                Height = 48
+                PNG = {
+                  89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+                  87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                  0363494441546843ED9849C84E5118C7AF79284364C850A6CC14194A5132AD09
+                  4B0BECB0366C50226B9405962C2C949D52A62C5014328F0921659E22FEBF337C
+                  AEEFBDF7BDD3F1BD9BFBAB5FE739EF77EFD739F73EF739E7DEA8A6A6A6A6A60A
+                  9D5C1B827E72A2EC6F7AE9BC93B7E507D3AB48A8092C94CB650FD3CBE6BB3C21
+                  CF985E05BAB8B60AB3E51AD9D5F4F2C1B153E42BF9821FCA52F50E70FE0E39D4
+                  F4A2E8BE7C64C35426CB91368C5ECA9DF2B7E995A0EA0486C9ED3634B9BD4DFE
+                  32BD747ACABDAE052650FA2E74766D5926B816EECAACC1C337F9C08686F8FF28
+                  4CD61D18E34C7B5666CA51368C8EC9B336CC64995C61C3E889BC6AC306B820A4
+                  646A5AA64DA0B75C27A79A5E3E76C96736CC64B4DC62C35CDC9487E457D38B91
+                  96424507FF5E3EB7612E9E4ACEC90B63614C0D24DD015266B30D4D75B82C7940
+                  D3F821AF484A6211A85CB36477D34B8645718EF4E3DC2349B9369226B044AEB4
+                  6174491EB161CB582BE7DA303A2E4FDBD0929442BEBCC11BD7B692F8187AB9B6
+                  8DAA65340D8A00156AB19398DFD2182C974AAA13573BAB3AB691541EA9CBE36D
+                  18DD73E6A58F5C2D79E0D862B05D40729DD424A7C9619E9B385B25C74C9233E4
+                  6BE98B42D3F184BC03ACCAACC4F365D285E1B70592C1726C9CD25B895013E0CA
+                  6F92034CCFC2E2C30387F18568A0DC2839C7B34F9E94A7E46149E5CB45A81422
+                  6D7817802FF2A064BB7CCB7951923AD36537C9F340B1B821E1B36423C87B42FB
+                  F5E4BFA7108399674303579095B33DFCC6DF3C9CD350558A1262025C797F2749
+                  95A4C17BB8E27E21E29DC0DFB5D284980039ED79E8DA66C477A2F1734B11B20A
+                  B584101378EB5A18EBDA668C732DC4CF2D458809DC91FE45868D60B35D2C55C8
+                  BF3FFC949C5B891013A06C52263DEBE5341BFE03836763E6E19C86FD7D51423D
+                  032C423E1D288D2C54ACB8AB246B04F106E9CB26C7724E65424DE0A3DC2FE339
+                  4DAAB0915BE4620FC7B0F27E32BD8A849A00F06561B73C2FC9EFF6F0DB39C931
+                  7C4E0942E8DD28BB4C162BBEB8B1603D966C252EC8A3F29A6CBF13CDA2C376A3
+                  71783819ACDFCC11577E6093489A00DF6D3C835CDB4AE26368B808795FEA8B7C
+                  7108C908C98B51A1977A606F5FE4B34A47705D1EB0E15F921E62E0411C2E8798
+                  5EEB61F07C1D69A86E592FCFD46FF62E7D4DAFE3E1E3173BDC7FD2A6A6A6A6A6
+                  261051F40758E2A196B93856C00000000049454E44AE426082}
+                FileName = 'D:\ProDelphiCE\TSC-PedidoMobile\Imagens\photo.png'
+              end>
+            Position.X = 240.000000000000000000
+            Position.Y = 176.000000000000000000
+            Visible = False
+          end
+        end
+      end
+      object TabItemTotais: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = False
+        Size.Width = 145.000000000000000000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = 'Totais'
+        ExplicitSize.cx = 145.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+        object LayoutTotal1: TLayout
+          Align = Top
+          Padding.Top = 10.000000000000000000
+          Position.Y = 180.000000000000000000
+          Size.Width = 436.000000000000000000
+          Size.Height = 60.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          object Layout1: TLayout
+            Align = Left
+            Position.Y = 10.000000000000000000
+            Size.Width = 150.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            object LabelIPI: TLabel
+              Align = Left
+              StyledSettings = [Family, Size]
+              Margins.Left = 10.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Position.X = 10.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 143.000000000000000000
+              Size.Height = 45.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+              TextSettings.FontColor = claGray
+              Text = 'R$ 999,99'
+              TabOrder = 0
+            end
+            object LabelTituloIPI: TLabel
+              Align = Contents
+              StyledSettings = [Family, Style]
+              Margins.Left = 10.000000000000000000
+              Margins.Bottom = 20.000000000000000000
+              Size.Width = 140.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 10.000000000000000000
+              TextSettings.FontColor = claGray
+              TextSettings.VertAlign = Leading
+              Text = 'Valor IPI'
+              TabOrder = 1
+            end
+          end
+          object Layout2: TLayout
+            Align = Right
+            Position.X = 286.000000000000000000
+            Position.Y = 10.000000000000000000
+            Size.Width = 150.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            object LabelFrete: TLabel
+              Align = Left
+              StyledSettings = [Family, Size]
+              Margins.Left = 10.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Position.X = 10.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 143.000000000000000000
+              Size.Height = 45.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+              TextSettings.FontColor = claGray
+              Text = 'R$ 999,99'
+              TabOrder = 0
+            end
+            object LabelTituloFrete: TLabel
+              Align = Contents
+              StyledSettings = [Family, Style]
+              Margins.Left = 10.000000000000000000
+              Margins.Bottom = 20.000000000000000000
+              Size.Width = 140.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 10.000000000000000000
+              TextSettings.FontColor = claGray
+              TextSettings.VertAlign = Leading
+              Text = 'Valor Frete'
+              TabOrder = 1
+            end
+          end
+        end
+        object Layout3: TLayout
+          Align = Top
+          Padding.Top = 10.000000000000000000
+          Position.Y = 120.000000000000000000
+          Size.Width = 436.000000000000000000
+          Size.Height = 60.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          object Layout4: TLayout
+            Align = Left
+            Position.Y = 10.000000000000000000
+            Size.Width = 150.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            object LabelBaseICMSST: TLabel
+              Align = Left
+              StyledSettings = [Family, Size]
+              Margins.Left = 10.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Position.X = 10.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 143.000000000000000000
+              Size.Height = 45.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+              TextSettings.FontColor = claGray
+              Text = 'R$ 999,99'
+              TabOrder = 0
+            end
+            object LabelTituloBaseICMSST: TLabel
+              Align = Contents
+              StyledSettings = [Family, Style]
+              Margins.Left = 10.000000000000000000
+              Margins.Bottom = 20.000000000000000000
+              Size.Width = 140.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 10.000000000000000000
+              TextSettings.FontColor = claGray
+              TextSettings.VertAlign = Leading
+              Text = 'Base ICMS ST'
+              TabOrder = 1
+            end
+          end
+          object Layout5: TLayout
+            Align = Right
+            Position.X = 286.000000000000000000
+            Position.Y = 10.000000000000000000
+            Size.Width = 150.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            object LabelICMSST: TLabel
+              Align = Left
+              StyledSettings = [Family, Size]
+              Margins.Left = 10.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Position.X = 10.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 143.000000000000000000
+              Size.Height = 45.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+              TextSettings.FontColor = claGray
+              Text = 'R$ 999,99'
+              TabOrder = 0
+            end
+            object LabelTituloICMSST: TLabel
+              Align = Contents
+              StyledSettings = [Family, Style]
+              Margins.Left = 10.000000000000000000
+              Margins.Bottom = 20.000000000000000000
+              Size.Width = 140.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 10.000000000000000000
+              TextSettings.FontColor = claGray
+              TextSettings.VertAlign = Leading
+              Text = 'Valor ICMS ST'
+              TabOrder = 1
+            end
+          end
+        end
+        object Layout6: TLayout
+          Align = Top
+          Padding.Top = 10.000000000000000000
+          Position.Y = 60.000000000000000000
+          Size.Width = 436.000000000000000000
+          Size.Height = 60.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          object Layout7: TLayout
+            Align = Left
+            Position.Y = 10.000000000000000000
+            Size.Width = 150.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            object LabelBaseICMS: TLabel
+              Align = Left
+              StyledSettings = [Family, Size]
+              Margins.Left = 10.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Position.X = 10.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 143.000000000000000000
+              Size.Height = 45.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+              TextSettings.FontColor = claGray
+              Text = 'R$ 999,99'
+              TabOrder = 0
+            end
+            object LabelTituloBaseICMS: TLabel
+              Align = Contents
+              StyledSettings = [Family, Style]
+              Margins.Left = 10.000000000000000000
+              Margins.Bottom = 20.000000000000000000
+              Size.Width = 140.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 10.000000000000000000
+              TextSettings.FontColor = claGray
+              TextSettings.VertAlign = Leading
+              Text = 'Base ICMS'
+              TabOrder = 1
+            end
+          end
+          object Layout8: TLayout
+            Align = Right
+            Position.X = 286.000000000000000000
+            Position.Y = 10.000000000000000000
+            Size.Width = 150.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            object LabelICMS: TLabel
+              Align = Left
+              StyledSettings = [Family, Size]
+              Margins.Left = 10.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Position.X = 10.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 143.000000000000000000
+              Size.Height = 45.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+              TextSettings.FontColor = claGray
+              Text = 'R$ 999,99'
+              TabOrder = 0
+            end
+            object LabelTituloICMS: TLabel
+              Align = Contents
+              StyledSettings = [Family, Style]
+              Margins.Left = 10.000000000000000000
+              Margins.Bottom = 20.000000000000000000
+              Size.Width = 140.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 10.000000000000000000
+              TextSettings.FontColor = claGray
+              TextSettings.VertAlign = Leading
+              Text = 'Valor ICMS'
+              TabOrder = 1
+            end
+          end
+        end
+        object Layout9: TLayout
+          Align = Top
+          Padding.Top = 10.000000000000000000
+          Size.Width = 436.000000000000000000
+          Size.Height = 60.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object Layout10: TLayout
+            Align = Left
+            Position.Y = 10.000000000000000000
+            Size.Width = 150.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            object LabelSubtotal: TLabel
+              Align = Left
+              StyledSettings = [Family, Size]
+              Margins.Left = 10.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Position.X = 10.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 143.000000000000000000
+              Size.Height = 45.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+              TextSettings.FontColor = claGray
+              Text = 'R$ 999,99'
+              TabOrder = 0
+            end
+            object LabelTituloSubtotal: TLabel
+              Align = Contents
+              StyledSettings = [Family, Style]
+              Margins.Left = 10.000000000000000000
+              Margins.Bottom = 20.000000000000000000
+              Size.Width = 140.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 10.000000000000000000
+              TextSettings.FontColor = claGray
+              TextSettings.VertAlign = Leading
+              Text = 'Subtotal'
+              TabOrder = 1
+            end
+          end
+          object Layout11: TLayout
+            Align = Right
+            Position.X = 286.000000000000000000
+            Position.Y = 10.000000000000000000
+            Size.Width = 150.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            object LabelDesconto: TLabel
+              Align = Left
+              StyledSettings = [Family, Size]
+              Margins.Left = 10.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Position.X = 10.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 143.000000000000000000
+              Size.Height = 45.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+              TextSettings.FontColor = claGray
+              Text = 'R$ 999,99'
+              TabOrder = 0
+            end
+            object LabelTituloDesconto: TLabel
+              Align = Contents
+              StyledSettings = [Family, Style]
+              Margins.Left = 10.000000000000000000
+              Margins.Bottom = 20.000000000000000000
+              Size.Width = 140.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 10.000000000000000000
+              TextSettings.FontColor = claGray
+              TextSettings.VertAlign = Leading
+              Text = 'Valor Descontos'
+              TabOrder = 1
+            end
+          end
+        end
+        object Layout12: TLayout
+          Align = Top
+          Padding.Top = 10.000000000000000000
+          Position.Y = 240.000000000000000000
+          Size.Width = 436.000000000000000000
+          Size.Height = 60.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object Layout13: TLayout
+            Align = Left
+            Position.Y = 10.000000000000000000
+            Size.Width = 150.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            object LabelAcrescimo: TLabel
+              Align = Left
+              StyledSettings = [Family, Size]
+              Margins.Left = 10.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Position.X = 10.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 143.000000000000000000
+              Size.Height = 45.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+              TextSettings.FontColor = claGray
+              Text = 'R$ 999,99'
+              TabOrder = 0
+            end
+            object LabelTituloAcrescimo: TLabel
+              Align = Contents
+              StyledSettings = [Family, Style]
+              Margins.Left = 10.000000000000000000
+              Margins.Bottom = 20.000000000000000000
+              Size.Width = 140.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 10.000000000000000000
+              TextSettings.FontColor = claGray
+              TextSettings.VertAlign = Leading
+              Text = 'Valor Despesas'
+              TabOrder = 1
+            end
+          end
+          object Layout14: TLayout
+            Align = Right
+            Position.X = 286.000000000000000000
+            Position.Y = 10.000000000000000000
+            Size.Width = 150.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            object LabelTotal: TLabel
+              Align = Left
+              StyledSettings = [Family, Size]
+              Margins.Left = 10.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Position.X = 10.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 143.000000000000000000
+              Size.Height = 45.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+              TextSettings.FontColor = claGray
+              Text = 'R$ 999,99'
+              TabOrder = 0
+            end
+            object LabelTituloTotal: TLabel
+              Align = Contents
+              StyledSettings = [Family, Style]
+              Margins.Left = 10.000000000000000000
+              Margins.Bottom = 20.000000000000000000
+              Size.Width = 140.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 10.000000000000000000
+              TextSettings.FontColor = claGray
+              TextSettings.VertAlign = Leading
+              Text = 'Total'
+              TabOrder = 1
+            end
+          end
+        end
+      end
+      object TabItemParcelas: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = False
+        Size.Width = 146.000000000000000000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = 'Parcelas'
+        ExplicitSize.cx = 146.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+        object ListViewParcelas: TListView
+          ItemAppearanceClassName = 'TDynamicAppearance'
+          ItemEditAppearanceClassName = 'TDynamicAppearance'
+          HeaderAppearanceClassName = 'TListHeaderObjects'
+          FooterAppearanceClassName = 'TListHeaderObjects'
+          Align = Client
+          Padding.Top = 10.000000000000000000
+          Size.Width = 436.000000000000000000
+          Size.Height = 388.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          ItemAppearance.ItemHeight = 80
+          ItemAppearance.ItemEditHeight = 60
+          ItemAppearance.HeaderHeight = 1
+          ItemAppearance.FooterHeight = 1
+          ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+            item
+              AppearanceObjectName = 'ImageFundo'
+              AppearanceClassName = 'TImageObjectAppearance'
+              Appearance.Width = 60.000000000000000000
+              Appearance.Height = 60.000000000000000000
+              Appearance.PlaceOffset.Y = 10.000000000000000000
+            end
+            item
+              AppearanceObjectName = 'TextNumero'
+              AppearanceClassName = 'TTextObjectAppearance'
+              Appearance.Font.Size = 11.000000000000000000
+              Appearance.Font.StyleExt = {00060000000000000004000000}
+              Appearance.TextAlign = Leading
+              Appearance.TextVertAlign = Leading
+              Appearance.TextColor = claGray
+              Appearance.Width = 332.000000000000000000
+              Appearance.Height = 20.000000000000000000
+              Appearance.PlaceOffset.X = 67.000000000000000000
+              Appearance.PlaceOffset.Y = 6.000000000000000000
+            end
+            item
+              AppearanceObjectName = 'TextValor'
+              AppearanceClassName = 'TTextObjectAppearance'
+              Appearance.Font.Size = 16.000000000000000000
+              Appearance.Font.StyleExt = {00060000000000000004000000}
+              Appearance.TextAlign = Leading
+              Appearance.TextColor = claDarkslategray
+              Appearance.Width = 204.000000000000000000
+              Appearance.Height = 30.000000000000000000
+              Appearance.PlaceOffset.X = 67.000000000000000000
+              Appearance.PlaceOffset.Y = 44.000000000000000000
+            end
+            item
+              AppearanceObjectName = 'ImageDetalhe'
+              AppearanceClassName = 'TImageObjectAppearance'
+              Appearance.Width = 30.000000000000000000
+              Appearance.Height = 80.000000000000000000
+              Appearance.Align = Trailing
+              Appearance.Opacity = 0.600000023841857900
+            end
+            item
+              AppearanceObjectName = 'TextVencimento'
+              AppearanceClassName = 'TTextObjectAppearance'
+              Appearance.Font.Size = 13.000000000000000000
+              Appearance.Font.StyleExt = {00060000000000000004000000}
+              Appearance.TextAlign = Leading
+              Appearance.TextVertAlign = Leading
+              Appearance.TextColor = claGray
+              Appearance.Width = 201.000000000000000000
+              Appearance.Height = 25.000000000000000000
+              Appearance.PlaceOffset.X = 67.000000000000000000
+              Appearance.PlaceOffset.Y = 23.000000000000000000
+            end>
+          ItemAppearanceObjects.ItemEditObjects.ObjectsCollection = <
+            item
+              AppearanceObjectName = 'Text1'
+              AppearanceClassName = 'TTextObjectAppearance'
+            end>
+          ItemAppearanceObjects.HeaderObjects.Text.Width = 316.000000000000000000
+          ItemAppearanceObjects.HeaderObjects.Text.Visible = False
+          ItemAppearanceObjects.FooterObjects.Text.Visible = False
+          object ImageParcelaMore: TImage
+            MultiResBitmap.Height = 48
+            MultiResBitmap.Width = 48
+            MultiResBitmap = <
+              item
+                Width = 48
+                Height = 48
+                PNG = {
+                  89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+                  87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                  00F6494441546843EDD8C14AC3401485E1D8D6BA75D55D7D4B95562DB4CBAE2B
+                  E213B9F319F429A4D5B6FE07263064E142722117CE073F433621C3241392C6CC
+                  CCCCCC428CE999CEF44A134AE59E74F16D7794CA37D5133850EF46658C702A63
+                  AB7B3C780F54AFC0927AA7072DCA1BE9B6B9A617DA52BA55907919CDFE41BBDC
+                  8C229FB530535AD1276DE89252D1B6596FA30B4AE548F5047EA877916FE28B32
+                  868A9CC0BA8C2D3D07A95CD1137D9026A3E374526FA3361437654C47F7FF23BD
+                  93DEC8913B5E087D03D72FB25B4A654FF504BEA87791CBDA3D77BAAD54F77FBD
+                  02FA464E453FB276A48BD73771BA1F5B666666F6B7A6F905FAE133F9C8F313BC
+                  0000000049454E44AE426082}
+                FileName = 'D:\ProDelphiCE\TSC-PedidoMobile\Imagens\more2.png'
+              end>
+            Position.X = 160.000000000000000000
+            Position.Y = 176.000000000000000000
+            Visible = False
+          end
+          object ImageParcela: TImage
+            MultiResBitmap.Height = 48
+            MultiResBitmap.Width = 48
+            MultiResBitmap = <
+              item
+                Width = 48
+                Height = 48
+                PNG = {
+                  89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+                  87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                  03AA494441546843ED9959A88D6B18C797B10C652843CE29C7910BB94132E4C2
+                  9421E944CA31949CD3311417CA94CCC305452E28B951E6944E480E29214407E9
+                  18733295F982E4988EF1FF7B877AF76AB1F65AFBF9F605EB57BFDEE77DDAEDBD
+                  9EF57DDFFB3DEFBB73152A7CE7D40B6329749613E51DF91F89C0103958FE233F
+                  9010FCFEDF647B799D44A0A59C2AFF970F49D426B7E527F9979B793A4A3E34F9
+                  792402BF4B72D8934460AB24F74C3620512E75C3580A3FE68DD04EC6DFF54318
+                  21FD99427173D9D487E551278C5FA2BE9C257F7633CF1F920FFB54EE2121DACA
+                  5F7C98BB2C4FFB30D75DF6F061EE88E4EAC10849D1B045BEF561EE815C2DDFB8
+                  9901BFCA780BD496D365B529760BB50A636D52D2DF2CE5195829B91DE20A7353
+                  32C7C92402BB65CC6F2211982B63FE1C89C04039DB87A5534A0177E579190B78
+                  2999E3351281C732E6EF9108FC2B63FE3989C005C9975116A51410D99737C225
+                  794BBE9307490478705FC947F22C89C07EC9FD7E4CA6C5983343C6878BD527D2
+                  268C290D650B1FE646C9719255AE996C24F3692DE3173852C6BFB394447529E7
+                  0A00B7493EBC557931F5977FCA9D72B4E41B7E2DF379223FFAB07CCA2DE06BF4
+                  0A23A46FDF4CB02CA0ABE405B6CACD3C73240F691F37CB00AB02FACA93B2D007
+                  ED26795887BB993116053496ACFD4DDCCCAF3891D869F2806F9774A1A6581430
+                  56C6068EABB0C8878E75322EABAC5074A7A65814D02F8CB040B21A4578E9A5ED
+                  352B94291605D0124762B799C25B3A7697356A9D0B6151C0FD3042A18798AB40
+                  8779582E266189450107C2086B65BAA1896C96C3E4093733C4A200B696A77CE8
+                  765A2B7CE81820D90F67864501F42F63E45537AB7A50C0CEEB865C288BEDFECA
+                  C2A200602BD85BB267A01F4AE11DC05559EE66C65815002F24EF80996EE6392E
+                  B942305F76F1A11D160570CB0C95855A6CFA7EAE0AF073937C688745017CC043
+                  926D22A718F96C0C23D01799625140A730B20275F06115D223921A1D6215C2A2
+                  80F4C890D5281F7AA5485CA9CCB02860978C3BAB259233D2089B9B353E74EC08
+                  A31916055C911B7CE86E91093E74704568B7619BA45B35C5A200E05C273D03CA
+                  87AB34C587B65815C071CA34C9CE8CB53FF2B71C24C74BB3F3CE14AB0222EC89
+                  D32BC131FA511F6683750140DB7C465E947B496449160570ECCEBE8097567AB4
+                  9809C53A444EE6D6FBD0F5F2E99A6FC94F322EBFCB6449A7735F839D543CF2AB
+                  2D7997549B62B7101B954C568F2FF05EA6AB5851AAB3C9A0CB4CFFBF95259C29
+                  A57BEC0A152A7CDBE4729F01768AD9123917C91E0000000049454E44AE426082}
+                FileName = 'D:\ProDelphiCE\TSC-PedidoMobile\Imagens\parcela.png'
+              end>
+            Position.X = 240.000000000000000000
+            Position.Y = 176.000000000000000000
+            Visible = False
+          end
+        end
+      end
+    end
+  end
+end
